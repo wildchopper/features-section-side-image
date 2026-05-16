@@ -1,5 +1,5 @@
 import './App.css'
-import featuresImage from './assets/unsplash_rAtzDB6hWrU.jpg'
+import featuresImage from './assets/desktop/DesktopRight.png'
 export default function App() {
   return (
     <>
@@ -15,23 +15,28 @@ export default function App() {
 
           <div className='features__content'>
             <ul className='features__list'>
-              <li className='features__item'>
-                <h3 className='features__item-title'>5K resolution support</h3>
-                <p className='features__item-text'>All images boast a minimum resolution of 5K, ensuring crisp, crystal-clear quality.</p>
+              <li className='features__item features__item--hd'>
+                <div className='features__item-container'>
+                  <h3 className='features__item-title'>5K resolution support</h3>
+                  <p className='features__item-text'>All images boast a minimum resolution of 5K, ensuring crisp, crystal-clear quality.</p>
+                </div>
               </li>
-              <li className='features__item'>
-                <h3 className='features__item-title'>From water to glass</h3>
-                <p className='features__item-text'>We offer a wide array of abstractions, ranging from water to glass, and encompassing various styles including 3D and vector.</p>
+              <li className='features__item features__item--water'>
+                <div className='features__item-container'>
+                  <h3 className='features__item-title'>From water to glass</h3>
+                  <p className='features__item-text'>We offer a wide array of abstractions, ranging from water to glass, and encompassing various styles including 3D and vector.</p>
+                </div>
               </li>
-              <li className='features__item'>
-                <h3 className='features__item-title'>Portrait or landscape</h3>
-                <p className='features__item-text'>Effortlessly adapt your images for any platform - whether it's a stunning wallpaper or captivating Instagram reels and stories.</p>
+              <li className='features__item features__item--portrait'>
+                <div className='features__item-container'>
+                  <h3 className='features__item-title'>Portrait or landscape</h3>
+                  <p className='features__item-text'>Effortlessly adapt your images for any platform - whether it's a stunning wallpaper or captivating Instagram reels and stories.</p>
+                </div>
               </li>
             </ul>
           </div>
-          <div className='features__image-frame'>
-            <img className='features__image' src={featuresImage} alt='' />
-          </div>
+          <img className='features__image' src={featuresImage} alt='' />
+
          
         </section>
       </div>
