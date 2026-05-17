@@ -10,10 +10,10 @@ describe('Credits', () => {
             'https://www.greatfrontend.com/projects?ref=challenges',
         )
         expect(screen.getByRole('link', { name: 'GreatFrontEnd Projects' })).toHaveAttribute('rel', 'noreferrer')
-        expect(screen.getByRole('link', { name: 'Your Name' })).toHaveAttribute(
+        expect(screen.getByRole('link', { name: 'Andrei Tolstorebrov' })).toHaveAttribute(
             'href',
-            'https://www.greatfrontend.com/u/your_username',
+            'https://www.greatfrontend.com/projects/u/wildchopper',
         )
-        expect(screen.getByRole('link', { name: 'Your Name' })).toHaveAttribute('rel', 'noreferrer')
+        expect(screen.getByRole('link', { name: 'Andrei Tolstorebrov' })).toHaveAttribute('rel', 'noreferrer')
     })
 })

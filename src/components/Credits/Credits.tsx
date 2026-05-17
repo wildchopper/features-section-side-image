@@ -8,8 +8,8 @@ export function Credits() {
                 GreatFrontEnd Projects
             </a>
             . Built by
-            <a href='https://www.greatfrontend.com/u/your_username' target='_blank' rel='noreferrer'>
-                Your Name
+            <a href='https://www.greatfrontend.com/projects/u/wildchopper' target='_blank' rel='noreferrer'>
+                Andrei Tolstorebrov
             </a>
             .
         </footer>
