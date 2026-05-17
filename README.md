@@ -2,6 +2,10 @@
 
 A responsive feature section built with React, TypeScript, semantic HTML, and CSS.
 
+## Live Demo
+https://wildchopper.github.io/features-section-side-image/
+https://wildchopper.github.io/features-section-side-image/right
+
 ## Features
 
 - Responsive feature section with bullet content and abstract image artwork
