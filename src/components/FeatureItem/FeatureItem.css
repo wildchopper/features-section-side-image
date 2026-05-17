@@ -1,0 +1,64 @@
+.features__item {
+    display: flex;
+    gap: 20px;
+}
+
+.features__item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 0;
+}
+
+.features__item::before {
+    content: "";
+    display: block;
+    min-width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border-radius: 50%;
+    box-shadow:
+        0 1px 2px 0 rgb(0 0 0 / 0.06),
+        0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.features__item--hd::before {
+    background-image: url("../../assets/icons/hd.svg");
+}
+
+.features__item--water::before {
+    background-image: url("../../assets/icons/water.svg");
+}
+
+.features__item--portrait::before {
+    background-image: url("../../assets/icons/poratraitOrLandscape.svg");
+}
+
+.features__item--rocket::before {
+    background-image: url("../../assets/icons/rocket.svg");
+}
+
+.features__item--team::before {
+    background-image: url("../../assets/icons/team.svg");
+}
+
+.features__item--citation::before {
+    background-image: url("../../assets/icons/citation.svg");
+}
+
+.features__item-title {
+    color: #171717;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.features__item-text {
+    color: #525252;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

@@ -1,0 +1,13 @@
+.credits {
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    color: #777777;
+    font-size: 11px;
+    text-align: center;
+}
+
+.credits a {
+    color: #000000;
+    font-weight: 700;
+}
